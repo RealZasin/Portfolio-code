@@ -1,0 +1,39 @@
+body {
+background: linear-gradient(to bottom left, rgb(197, 197, 197), rgb(137, 218, 255));
+background-repeat: no-repeat; /* Prevent the background from repeating */
+background-attachment: fixed; /* Fixes the background so content scrolls over it */
+background-size: cover; /* Makes sure the background covers the entire viewport */
+margin: 0;
+font-family: 'Lato', sans-serif;
+}
+
+.logoImg {
+    width: 4rem;
+}
+
+.navBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0rem -0.6rem 1rem 0.1rem;
+    margin: auto;
+    padding: auto;
+}
+
+.POK {
+   
+}
+
+
+
+
+
+
+
+
+@media (min-width: 768px) {
+    body {
+        background-color: red;
+    }
+}
