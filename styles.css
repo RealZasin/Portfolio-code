@@ -25,7 +25,43 @@ font-family: 'Lato', sans-serif;
    
 }
 
+.Selfie {
+    border: 0.3rem solid black;  
+}
 
+.grid1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.grid1 h3 {
+    margin: 0rem;
+}
+
+
+/* .OmMegDiv {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 0rem;
+    padding: 0rem;
+}
+
+.grid1 {
+    padding: 1rem;
+    margin: 0rem;
+    
+}
+
+.grid1 h4 {
+    margin: 0rem;
+}
+
+.grid1 p {
+    margin: 0.3rem;
+} */
 
 
 
