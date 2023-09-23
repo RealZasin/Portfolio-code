@@ -50,7 +50,7 @@ margin-bottom: 1rem;
     border-radius: 0.4rem;    
 }
 
-.grid1 {
+.gridOmMeg {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -106,8 +106,43 @@ footer {
     margin: 0.3rem;
 } */
 
+#Prosjekter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+        
+}
 
+.GridContainer {
+    margin: 0;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 0.5rem;
+    padding: 0rem 1rem;
+    
+}
 
+.gridProsjekter {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+#MyFooter {
+    text-align: start;
+    display: block;
+    padding: 0.5rem;
+}
+
+img {
+    border-radius: 0.2rem;
+}
 
 
 
