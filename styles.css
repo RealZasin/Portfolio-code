@@ -4,7 +4,7 @@ background-repeat: no-repeat; /* Prevent the background from repeating */
 background-attachment: fixed; /* Fixes the background so content scrolls over it */
 background-size: cover; /* Makes sure the background covers the entire viewport */
 margin: 0;
-font-family: 'Lato', sans-serif;
+font-family: 'Quicksand', sans-serif;
 margin-bottom: 1rem;
 }
 
@@ -65,7 +65,7 @@ margin-bottom: 1rem;
 
 .grid1 h3 {
     margin-top: 2rem;
-    margin-bottom: 0;
+    margin: auto;
 }
 
 #prosjekter {
