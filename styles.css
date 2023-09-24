@@ -53,20 +53,15 @@ margin-bottom: 1rem;
 .gridOmMeg {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: start;
     justify-content: center;
     padding: 1rem;
 }
 
-.grid1 p {
-    margin: 1rem;
-    /* text-align: center; */
-}
-
-.grid1 h3 {
-    margin-top: 2rem;
-    margin: auto;
-}
+/* .gridOmMeg > h3 {
+  display: flex;
+  justify-content: start;
+} */
 
 #prosjekter {
     display: flex;
@@ -84,27 +79,6 @@ footer {
 #prosjekter h3{
     margin-bottom: 0;
 }
-
-/* .OmMegDiv {
-    display: grid;
-    grid-template-columns: auto auto;
-    margin: 0rem;
-    padding: 0rem;
-}
-
-.grid1 {
-    padding: 1rem;
-    margin: 0rem;
-    
-}
-
-.grid1 h4 {
-    margin: 0rem;
-}
-
-.grid1 p {
-    margin: 0.3rem;
-} */
 
 #Prosjekter {
     display: flex;
@@ -137,7 +111,7 @@ footer {
 #MyFooter {
     text-align: start;
     display: block;
-    padding: 0.5rem;
+    padding: 0.5rem 2rem;
 }
 
 img {
