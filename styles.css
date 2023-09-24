@@ -34,9 +34,11 @@ margin-bottom: 1rem;
     padding: auto;
 }
 
-#skills {
-   margin-top: 1rem;
+.skills {
+    padding: 0.4rem 0rem;
+    height: 3rem;
 }
+
 .Me {
     display: flex;
     flex-direction: column;
@@ -45,12 +47,16 @@ margin-bottom: 1rem;
     padding: 1rem;
 }
 
+
+
 .Selfie {
+    height: 15rem;
     border: 0.3rem solid rgb(0, 25, 48); 
     border-radius: 0.4rem;    
 }
 
-.gridOmMeg {
+.OmMeg {
+    margin-top: 0rem;
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -58,10 +64,9 @@ margin-bottom: 1rem;
     padding: 1rem;
 }
 
-/* .gridOmMeg > h3 {
-  display: flex;
-  justify-content: start;
-} */
+.OmMeg h3 {
+    margin-bottom: 0rem;
+}
 
 #prosjekter {
     display: flex;
@@ -108,6 +113,10 @@ footer {
 
 }
 
+.gridProsjekter img{
+    width: 10rem;
+}
+
 #MyFooter {
     text-align: start;
     display: block;
@@ -118,10 +127,90 @@ img {
     border-radius: 0.2rem;
 }
 
+.gridProsjekter .GithubLink {
+    font-size: 0.8rem;
+    padding: 0rem;
+    margin: 0rem;
 
+}
+
+.gridProsjekter {
+    padding: 0.4rem;
+}
 
 @media (min-width: 768px) {
-    body {
-        background-color: red;
+    
+    .OmMeg {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 80rem;
+        margin: auto;
     }
+
+    .OmMeg h3 {
+        font-size: 2rem;
+    }
+
+    .OmMeg p {
+        font-size: 1.4rem;
+    }
+
+    .gridProsjekter {
+        padding: 1rem;
+    }
+
+    .gridProsjekter img{
+        width: 60rem;
+
+    } 
+
+    .Me {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem;
+        font-size: 1.2rem;
+    }
+
+    .Me h3{
+        font-size: 2rem;
+        margin-bottom: 0rem;
+    }
+
+    .Me label{
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+    }
+
+
+    .Selfie {
+        height: 30rem;
+        border: 0.3rem solid rgb(0, 25, 48); 
+        border-radius: 0.4rem;    
+    }
+
+    .skills {
+        height: 5rem;
+    }
+
+    #Prosjekter h3 {
+        font-size: 2rem;
+    }
+
+    
+    .gridProsjekter .GithubLink {
+    font-size: 1.4rem;
+    padding: 0rem;
+    margin: 0rem;
+    }
+
+
+
 }
+
+
+
