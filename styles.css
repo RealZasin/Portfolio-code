@@ -1,9 +1,13 @@
+*, html {
+    box-sizing: border-box;
+    margin: 0;
+
+}
+
 body {
 background: linear-gradient(to bottom left, rgb(197, 197, 197), rgb(137, 218, 255));
 background-repeat: no-repeat; /* Prevent the background from repeating */
 background-attachment: fixed; /* Fixes the background so content scrolls over it */
-background-size: cover; /* Makes sure the background covers the entire viewport */
-margin: 0;
 font-family: 'Quicksand', sans-serif;
 margin-bottom: 1rem;
 }
@@ -97,7 +101,7 @@ footer {
     margin: 0;
     display: grid;
     grid-template-columns: auto auto;
-    grid-gap: 0.5rem;
+    grid-gap: 0rem;
     padding: 0rem 1rem;
     
 }
@@ -114,7 +118,7 @@ footer {
 }
 
 .gridProsjekter img{
-    width: 10rem;
+    width: 8rem;
 }
 
 #MyFooter {
@@ -140,6 +144,16 @@ img {
 
 @media (min-width: 768px) {
     
+    *, html {
+        box-sizing: border-box;
+        margin: 0;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        
+    }
     .OmMeg {
         display: flex;
         flex-direction: column;
@@ -163,7 +177,8 @@ img {
     }
 
     .gridProsjekter img{
-        width: 60rem;
+        width: 40rem;
+        max-width: 100%; 
 
     } 
 
@@ -197,6 +212,10 @@ img {
         height: 5rem;
     }
 
+    #Prosjekter {
+        width: 100%;
+    }
+
     #Prosjekter h3 {
         font-size: 2rem;
     }
@@ -207,6 +226,8 @@ img {
     padding: 0rem;
     margin: 0rem;
     }
+
+    
 
 
 
